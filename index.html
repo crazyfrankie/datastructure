@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据结构可视化演示</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .demo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px; }
+        .demo-card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; }
+        .demo-card h3 { margin-top: 0; color: #333; }
+        .demo-card a { color: #0066cc; text-decoration: none; }
+        .demo-card a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>数据结构可视化演示</h1>
+        <p>这是一个数据结构学习项目，包含各种数据结构的可视化演示。</p>
+        
+        <div class="demo-grid">
+            <div class="demo-card">
+                <h3>数组</h3>
+                <a href="dsc/DynamicArray.html">动态数组演示</a><br>
+                <a href="dsc/02b-array-explorer-with-capacity.html">数组容量探索</a>
+            </div>
+            
+            <div class="demo-card">
+                <h3>链表</h3>
+                <a href="dsc/02-singly-linked-list-exp.html">单链表实验</a><br>
+                <a href="dsc/03-singly-linked-list-pipeline.html">单链表管道</a><br>
+                <a href="dsc/03-doubly-linked-list.html">双链表</a><br>
+                <a href="dsc/03-circular-linked-list-carousel-crud.html">循环链表</a>
+            </div>
+            
+            <div class="demo-card">
+                <h3>栈和队列</h3>
+                <a href="dsc/04-sequential_stack.html">顺序栈</a><br>
+                <a href="dsc/04-linked_stack.html">链栈</a><br>
+                <a href="dsc/05-circular_queue.html">循环队列</a><br>
+                <a href="dsc/05-linked-queue.html">链队列</a>
+            </div>
+            
+            <div class="demo-card">
+                <h3>树结构</h3>
+                <a href="dsc/07-BST.html">二叉搜索树</a><br>
+                <a href="dsc/08-avl.html">AVL树</a><br>
+                <a href="dsc/09-redblack.html">红黑树</a><br>
+                <a href="dsc/010.btree-demo.html">B树演示</a>
+            </div>
+            
+            <div class="demo-card">
+                <h3>图和算法</h3>
+                <a href="dsc/012-graph.html">图结构</a><br>
+                <a href="dsc/012-graph_algorithm.html">图算法</a>
+            </div>
+            
+            <div class="demo-card">
+                <h3>其他</h3>
+                <a href="dsc/06-hash.html">哈希表</a><br>
+                <a href="dsc/07-trie.html">字典树</a><br>
+                <a href="dsc/05-priority-queue.html">优先队列</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
